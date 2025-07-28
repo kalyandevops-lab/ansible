@@ -3,8 +3,8 @@
   connection: local
   vars:
     GREETING: "Hello from PLAY"
-  vars_files:
-  - course.yaml
+  # vars_files:
+  # - course.yaml
   vars_prompt:
   - name: GREETING
     prompt: Please enter the GREETING
@@ -18,3 +18,4 @@
 
 # 1. Command line or args
 # 2. Task      
+# 3. File
